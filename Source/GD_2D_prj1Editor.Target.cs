@@ -8,7 +8,8 @@ public class GD_2D_prj1EditorTarget : TargetRules
 	public GD_2D_prj1EditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V5;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
 		ExtraModuleNames.Add("GD_2D_prj1");
 		bOverrideBuildEnvironment = true;
 	}
